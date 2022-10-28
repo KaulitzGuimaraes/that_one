@@ -1,2 +1,6 @@
-sklearn
 pandas
+sklearn
+nltk
+spotipy
+flask
+lyricsgenius

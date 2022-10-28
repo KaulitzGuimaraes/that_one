@@ -160,3 +160,9 @@ cython_debug/
 .idea/
 /kau_test.py
 
+*.xml
+.cache
+.env
+lyrics_charlixcx_silvercross.json
+r.py
+test_dataset.py
