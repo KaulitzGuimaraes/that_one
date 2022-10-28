@@ -4,3 +4,4 @@ nltk
 spotipy
 flask
 lyricsgenius
+googletrans
