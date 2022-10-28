@@ -9,13 +9,13 @@ from common.constants import BASE_DATA, TEXT_COL
 
 
 class BOW:
-    count_vect = CountVectorizer()
-    tfidf_transformer = TfidfTransformer()
-    cols = None
     bow = None
-
     def __init__(self, data=None):
+        self.count_vect = CountVectorizer()
+        self.tfidf_transformer = TfidfTransformer()
         self.count_bag_train_t = self.create_bow(data, None)
+        self.cols = None
+
 
     def save_bow(self):
         with(open('bow.bin', 'wb')) as b:

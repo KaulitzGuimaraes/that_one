@@ -54,7 +54,7 @@ class Classifier:
             with open(Classifier.naive_bin, 'rb') as f:
                 Classifier.classifierManager = pickle.load(f)
             f.close()
-        except Exception  as e:
+        except Exception as e:
             print(e)
             pass
 
