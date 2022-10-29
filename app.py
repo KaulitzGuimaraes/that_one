@@ -21,9 +21,10 @@ def hello_world():
 	'''
 
 
-@app.errorhandler(Exception)
-def internal_error(error):
-    return {'message': 'internal_server_error'}, 500
+# @app.errorhandler(Exception)
+# def internal_error(error):
+#     app.logger.error(error)
+#     return {'message': 'internal_server_error'}, 500
 
 
 @app.route('/get_spotify_list', methods=['GET'])
