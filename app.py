@@ -32,10 +32,10 @@ def get_spotify_list():
     return create_playlist_by_track(artist=params['artist'], track_name=params['track_name']), 200
 
 
-# main driver function
-if __name__ == '__main__':
-    # create_playlist_by_track(track_name='High Hopes',artist='Panic! at the disco')
-    # create_playlist_by_track(track_name='Quit', artist='Ariana Grande')
-    # run() method of Flask class runs the application
-    # on the local development server.
-    app.run()
+# # main driver function
+# if __name__ == '__main__':
+#     # create_playlist_by_track(track_name='High Hopes',artist='Panic! at the disco')
+#     # create_playlist_by_track(track_name='Quit', artist='Ariana Grande')
+#     # run() method of Flask class runs the application
+#     # on the local development server.
+#     app.run()
