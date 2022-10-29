@@ -1,4 +1,5 @@
 import json
+import pickle
 
 from n_pl.emotions_identifier import EmotionsIdentifier
 from spotify_api.spotifymanager import SpotifyManager
@@ -7,7 +8,8 @@ from training.classifier import Classifier
 from genius.genius import GeniusLyricsFinder
 from translator.translator import LyricsTranslator
 
-sp = SpotifyManager()
+sp = pickle.load(open('./sp.bin', mode='rb'))
+
 bow = BOW.get_bow()
 
 
