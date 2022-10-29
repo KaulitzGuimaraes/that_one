@@ -6,7 +6,7 @@ class GeniusLyricsFinder():
     def __init__(self):
         self.genius = Genius(os.getenv('GENIUS_TOKEN'))
 
-    def get_song_lyric(self, artist, title):
+    def get_song_lyric(self, artist: str, title: str) -> str:
         song = self.genius.search_song(artist=artist, title=title)
         return song.to_dict()['lyrics']
 

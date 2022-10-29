@@ -166,3 +166,5 @@ cython_debug/
 lyrics_charlixcx_silvercross.json
 r.py
 test_dataset.py
+.DS_Store
+p.json

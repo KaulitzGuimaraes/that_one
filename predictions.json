@@ -1,1 +1,746 @@
-[{"uri": "spotify:track:2tEMbypmvYhf84mzVbhxwZ", "name": "NANANA", "artist": "GOT7", "emotion": "joy"}, {"uri": "spotify:track:4ER58qECydWokIsgqtysWu", "name": "\ub531 \uc88b\uc544(Just right)", "artist": "GOT7", "emotion": "joy"}, {"uri": "spotify:track:6f4wghlwYWGLqGEIKc6HDQ", "name": "You Calling My Name", "artist": "GOT7", "emotion": "sadness"}, {"uri": "spotify:track:1pmfd0ohjfh1qXPWvjaC1o", "name": "NOT BY THE MOON", "artist": "GOT7", "emotion": "sadness"}, {"uri": "spotify:track:1xzCUpXSMnAbckUXDwBTlW", "name": "\ud558\ub4dc\uce90\ub9ac Hard Carry", "artist": "GOT7", "emotion": "joy"}, {"uri": "spotify:track:72HYwYmfl6Y8AzbJO0z6vB", "name": "\ub2c8\uac00 \ud558\uba74 If You Do", "artist": "GOT7", "emotion": "fear"}, {"uri": "spotify:track:2iXvnjL5CH66UpnGjXHDmZ", "name": "Lullaby", "artist": "GOT7", "emotion": "love"}, {"uri": "spotify:track:4tzkSoh450XnimhNWVmBhg", "name": "Never Ever", "artist": "GOT7", "emotion": "sadness"}, {"uri": "spotify:track:5fHsQ2MSaBD1wId7lGGBaK", "name": "TRUTH", "artist": "GOT7", "emotion": "joy"}, {"uri": "spotify:track:4fMQoUbHEDQuunJiYbLXpL", "name": "Don't Leave Me Alone", "artist": "GOT7", "emotion": "sadness"}, {"uri": "spotify:track:0yB4jrSwN0bFtFRDR5vyMj", "name": "Love Shot", "artist": "exo", "emotion": "sadness"}, {"uri": "spotify:track:7GbUWl6qLW1gdngbEV2WDJ", "name": "Monster", "artist": "exo", "emotion": "anger"}, {"uri": "spotify:track:2ujA6F1cpk3m8lsPE5aKua", "name": "The Eve", "artist": "exo", "emotion": "love"}, {"uri": "spotify:track:6Rx0ORYPP3GH9rTvGS5Vy8", "name": "CALL ME BABY", "artist": "exo", "emotion": "sadness"}, {"uri": "spotify:track:5EzitieoPnjyKHAq0gfRMa", "name": "Ko Ko Bop", "artist": "exo", "emotion": "fear"}, {"uri": "spotify:track:4pi0Elz7B7cLfw37J3bYm9", "name": "Growl", "artist": "exo", "emotion": "joy"}, {"uri": "spotify:track:6ukWoX4AHV76JdYVdKRPk8", "name": "Lotto", "artist": "exo", "emotion": "joy"}, {"uri": "spotify:track:7fK0csBoqbcgUuWGV0cpoD", "name": "Obsession", "artist": "exo", "emotion": "sadness"}, {"uri": "spotify:track:4EjUFjzi4ErWjklOA3Aslu", "name": "Tempo", "artist": "exo", "emotion": "sadness"}, {"uri": "spotify:track:1Acgi7wxVD9OF3iQnFe8Q4", "name": "Don't Go", "artist": "exo", "emotion": "joy"}, {"uri": "spotify:track:0tYZo2UhV1lrUez5CA0Iyw", "name": "Guerrilla", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:3zmrdOtnOogqLllz26WLZ3", "name": "Deja Vu", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:6k67RdkVjTZj79c1cRz7IQ", "name": "WONDERLAND", "artist": "ateez", "emotion": "sadness"}, {"uri": "spotify:track:2Ax4rdLenBhULX7nRbhful", "name": "Cyberpunk", "artist": "ateez", "emotion": "sadness"}, {"uri": "spotify:track:0rNLaGUleZ91DXMxmZNq5v", "name": "Fireworks (I'm The One)", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:3IdPtyJHB1WVPM4eCiCAKM", "name": "Answer", "artist": "ateez", "emotion": "love"}, {"uri": "spotify:track:7zC6xvBPnIC92K06pMpstY", "name": "INCEPTION", "artist": "ateez", "emotion": "sadness"}, {"uri": "spotify:track:2UP7KnRSvc4taXbjOoSX0f", "name": "Say My Name", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:28xjm4FnnGI4Xnds7VoNSl", "name": "Wave", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:1V1btvvh0M47BWClDsiCqZ", "name": "Sector 1", "artist": "ateez", "emotion": "joy"}, {"uri": "spotify:track:3dI59jLoFMjMAyUAyRZnkE", "name": "BANG BANG BANG", "artist": "bigbang", "emotion": "joy"}, {"uri": "spotify:track:3TSLqZssCoCdDlMhCJ08XW", "name": "Still Life", "artist": "bigbang", "emotion": "joy"}, {"uri": "spotify:track:3lYvepDz6yYj29z7e4r5z0", "name": "FXXK IT", "artist": "bigbang", "emotion": "love"}, {"uri": "spotify:track:1L4d2lafz1odpIMe8va21X", "name": "Haru Haru", "artist": "bigbang", "emotion": "sadness"}, {"uri": "spotify:track:2vzn8usBcuNL93DnTjEK0z", "name": "LOSER", "artist": "bigbang", "emotion": "love"}, {"uri": "spotify:track:6UgkB0xM45TR3Zjqm3GQ6T", "name": "LET'S NOT FALL IN LOVE", "artist": "bigbang", "emotion": "sadness"}, {"uri": "spotify:track:4kaY4LbdbomICC25gYGGtn", "name": "IF YOU", "artist": "bigbang", "emotion": "sadness"}, {"uri": "spotify:track:7ijWcf4FsoxoyPK4B9WGp6", "name": "LAST DANCE", "artist": "bigbang", "emotion": "joy"}, {"uri": "spotify:track:26JeAi8xsSvLRoNsl9B8Js", "name": "FANTASTIC BABY - Japanese ver.", "artist": "bigbang", "emotion": "joy"}, {"uri": "spotify:track:4LOLvDtzykDC7y9WehFoOi", "name": "Blue", "artist": "bigbang", "emotion": "love"}, {"uri": "spotify:track:2bPGTMB5sFfFYQ2YvSmup0", "name": "Deutschland", "artist": "rammstein", "emotion": "anger"}, {"uri": "spotify:track:5KTBaWu8IOczQ0sPWzZ7MY", "name": "Dicke Titten", "artist": "rammstein", "emotion": "joy"}, {"uri": "spotify:track:3gVhsZtseYtY1fMuyYq06F", "name": "Sonne", "artist": "rammstein", "emotion": "love"}, {"uri": "spotify:track:5awDvzxWfd53SSrsRZ8pXO", "name": "Du hast", "artist": "rammstein", "emotion": "love"}, {"uri": "spotify:track:514GW1c9Jn21KgZmO6mZIE", "name": "Armee der Tristen", "artist": "rammstein", "emotion": "sadness"}, {"uri": "spotify:track:0UuNO0yYvsMPlyLF7RfQlg", "name": "Angst", "artist": "rammstein", "emotion": "fear"}, {"uri": "spotify:track:7j43FohbLVulScL7S9sQZk", "name": "Ausl\u00e4nder", "artist": "rammstein", "emotion": "joy"}, {"uri": "spotify:track:2w7Ca8DNYXBCgA6Bht7o0N", "name": "Zick Zack", "artist": "rammstein", "emotion": "joy"}, {"uri": "spotify:track:2KsHzM4L7ThhNJB6MHXkPx", "name": "Zeit", "artist": "rammstein", "emotion": "joy"}, {"uri": "spotify:track:5vZ4IeUenK2cHub2d7yfWk", "name": "Radio", "artist": "rammstein", "emotion": "sadness"}, {"uri": "spotify:track:0qi4b1l0eT3jpzeNHeFXDT", "name": "Just Can't Get Enough", "artist": "depeche mode", "emotion": "joy"}, {"uri": "spotify:track:0yp3TvJNlG50Q4tAHWNCRm", "name": "Enjoy the Silence", "artist": "depeche mode", "emotion": "joy"}, {"uri": "spotify:track:4UCTgh5jvtqoaMX6MAhUNn", "name": "Personal Jesus - Single Version", "artist": "depeche mode", "emotion": "sadness"}, {"uri": "spotify:track:1cBxAm8a0fENn2ix3Dfm3u", "name": "Precious", "artist": "depeche mode", "emotion": "sadness"}, {"uri": "spotify:track:0Mb20VmqR2lvtgbEermW2v", "name": "Policy of Truth", "artist": "depeche mode", "emotion": "joy"}, {"uri": "spotify:track:2wUlYDGGXlSvm2NkGj0Qio", "name": "Personal Jesus", "artist": "depeche mode", "emotion": "sadness"}, {"uri": "spotify:track:0T57cTUpYpvSvZ3GowBuTP", "name": "Never Let Me Down Again", "artist": "depeche mode", "emotion": "sadness"}, {"uri": "spotify:track:6ZCyDN2ArlWB4GKAj644Cd", "name": "Strangelove", "artist": "depeche mode", "emotion": "surprise"}, {"uri": "spotify:track:4WoKuMjwJXuy9IqX6AH5JE", "name": "People Are People", "artist": "depeche mode", "emotion": "sadness"}, {"uri": "spotify:track:7HDWE2Ib7cjkhzULV4K8y3", "name": "It's No Good", "artist": "depeche mode", "emotion": "joy"}, {"uri": "spotify:track:0n3sHHfdOq6Awix3JPe3xl", "name": "Bad Romance", "artist": "halestorm", "emotion": "sadness"}, {"uri": "spotify:track:60rHc4AkLlP4XVSATvBb6K", "name": "I Miss the Misery", "artist": "halestorm", "emotion": "sadness"}, {"uri": "spotify:track:0JKY13K1Io2aqXJb96UyzX", "name": "I Get Off", "artist": "halestorm", "emotion": "anger"}, {"uri": "spotify:track:7dIObUjmQfXbs56UsaBIHT", "name": "Wicked Ways", "artist": "halestorm", "emotion": "joy"}, {"uri": "spotify:track:0hKLGoFtQiMHUzmquTyzpS", "name": "Love Bites (So Do I)", "artist": "halestorm", "emotion": "sadness"}, {"uri": "spotify:track:3wfLVyu732UjOAQbGlZSPw", "name": "Here's to Us", "artist": "halestorm", "emotion": "anger"}, {"uri": "spotify:track:5MapUlM1un2Kh4aZ3IyWcL", "name": "I Am the Fire", "artist": "halestorm", "emotion": "joy"}, {"uri": "spotify:track:0dnx2LK0rnPTACGzbLc1Jx", "name": "Mz. Hyde", "artist": "halestorm", "emotion": "joy"}, {"uri": "spotify:track:6ubqrTIJwspBSqx8XQHN2K", "name": "Mayhem", "artist": "halestorm", "emotion": "sadness"}, {"uri": "spotify:track:0AGJuICX9Uhne0ER96c4Rw", "name": "Freak Like Me", "artist": "halestorm", "emotion": "sadness"}, {"uri": "spotify:track:7n5eQJYX7e6H5gkzgyEfQG", "name": "Can You Hear My Heart (feat. LEE HI)", "artist": "epik high", "emotion": "joy"}, {"uri": "spotify:track:0OWBz5FCeATA2zhHgAk7Uh", "name": "Rosario (Feat. CL, ZICO)", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:2qrDQX9IvOhetvjUcwPtmb", "name": "Rain Song (Feat. Colde)", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:1VnjByC7TUx5A73A4qtgoo", "name": "\uc6b0\uc0b0 (feat. \uc724\ud558)", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:1hV2SwB1pcFXZgYG9Sq2J7", "name": "LOVE STORY", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:5ZO2kMfYHuKXoAShKuXjZn", "name": "End of the World (Feat. GSoul)", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:7zyEA6ntsqPH7sLc1YYK26", "name": "HOME IS FAR AWAY", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:1Q4GCEgmuwVcR3FB1TpJFR", "name": "Born Hater", "artist": "epik high", "emotion": "anger"}, {"uri": "spotify:track:6A4iYPzPVM4OSjIMgxMYnY", "name": "Gray So Gray (Feat. Younha)", "artist": "epik high", "emotion": "sadness"}, {"uri": "spotify:track:5b2suopDXFPLXl3NKOTJjY", "name": "Lovedrunk (Feat. Crush)", "artist": "epik high", "emotion": "anger"}, {"uri": "spotify:track:2DgdHcjWmO3qd50RzuBLgZ", "name": "House of Memories", "artist": "Panic! At the disco", "emotion": "sadness"}, {"uri": "spotify:track:2Rk4JlNc2TPmZe2af99d45", "name": "ME! (feat. Brendon Urie of Panic! At The Disco)", "artist": "Panic! At the disco", "emotion": "sadness"}, {"uri": "spotify:track:1BECwm5qkaBwlbfo4kpYx8", "name": "Death of a Bachelor", "artist": "Panic! At the disco", "emotion": "sadness"}, {"uri": "spotify:track:3px2rAPu74ltbkf9eZsZ8h", "name": "Emperor's New Clothes", "artist": "Panic! At the disco", "emotion": "joy"}, {"uri": "spotify:track:2fh3bZ8jZhMxOcfESE9nQY", "name": "Don't Threaten Me with a Good Time", "artist": "Panic! At the disco", "emotion": "joy"}, {"uri": "spotify:track:22oEJW6r2rMb9z4IntfyEa", "name": "Hey Look Ma, I Made It", "artist": "Panic! At the disco", "emotion": "sadness"}, {"uri": "spotify:track:6od5hFv9IT5JHc7NEF9HRv", "name": "Victorious", "artist": "Panic! At the disco", "emotion": "joy"}, {"uri": "spotify:track:5rLi8B8qgk6qThwRnKHW2P", "name": "The Ballad of Mona Lisa", "artist": "Panic! At the disco", "emotion": "sadness"}, {"uri": "spotify:track:5443vprqDLYYwDUyBLkU9H", "name": "Fahr mit mir (4x4) (feat. Tokio Hotel)", "artist": "Tokio Hotel", "emotion": "joy"}, {"uri": "spotify:track:2QuQkdLLzgktXwruPAz6f4", "name": "White Lies", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:32Ky5QCRtwYJJXuLwoGufj", "name": "Monsoon", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:2u7zMp2o6phdzeuSVLxbcM", "name": "Happy People (feat. Da\u00f0i Freyr)", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:1pGQZYCKWFsadznuK8YkcZ", "name": "Love Who Loves You Back", "artist": "Tokio Hotel", "emotion": "joy"}, {"uri": "spotify:track:1E7BFqr1XUEk9jB9PFFsQA", "name": "Behind Blue Eyes", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:0C6sWuj7DEyxh6TPDuhogn", "name": "When We Were Younger", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:4OFp0syo4JH3zonPTNpqJG", "name": "Bad Love", "artist": "Tokio Hotel", "emotion": "sadness"}, {"uri": "spotify:track:2MvvoeRt8NcOXWESkxWn3g", "name": "Ribs", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:2dLLR6qlu5UJ5gk0dKz0h3", "name": "Royals", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:3G6hD9B2ZHOsgf4WfNu7X1", "name": "Team", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:6Kkt27YmFyIFrcX3QXFi2o", "name": "Liability", "artist": "Lorde", "emotion": "sadness"}, {"uri": "spotify:track:6ie2Bw3xLj2JcGowOlcMhb", "name": "Green Light", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:6K8VQ84MqhsoakN5MjrnVR", "name": "Supercut", "artist": "Lorde", "emotion": "anger"}, {"uri": "spotify:track:51QEyJI5M7uyd8DOh9tqQY", "name": "Buzzcut Season", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:7ARveOiD31w2Nq0n5FsSf8", "name": "Perfect Places", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:193Dm5SqYy3hTSbuzxbwKc", "name": "Writer In The Dark", "artist": "Lorde", "emotion": "sadness"}, {"uri": "spotify:track:7rdUtXasA973gmrr2Xxh3E", "name": "Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX", "artist": "Lorde", "emotion": "joy"}, {"uri": "spotify:track:26EM9sZnQkLLQxixGd88KE", "name": "I Am The Best", "artist": "2NE1", "emotion": "joy"}, {"uri": "spotify:track:63J1RStsmoVKXNTCHRNxii", "name": "COME BACK HOME", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:5BzfRtVjyC4wbISHdbCvWL", "name": "Lonely", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:4q2HU9Ijpk4zJ24x7oMdXb", "name": "FIRE", "artist": "2NE1", "emotion": "joy"}, {"uri": "spotify:track:4ebNVkfNL5kHuxr3o5K93R", "name": "Go Away", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:5FahFQNnmxqiWzJbDNmeIY", "name": "Ugly", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:1ErdaM9N7EJ7trhXFnDECg", "name": "I Don't Care", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:29yVLesUDgcKvnTdipu3rw", "name": "GOTTA BE YOU", "artist": "2NE1", "emotion": "sadness"}, {"uri": "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6", "name": "Sweater Weather", "artist": "The neighbourhood", "emotion": "anger"}, {"uri": "spotify:track:5E30LdtzQTGqRvNd7l6kG5", "name": "Daddy Issues", "artist": "The neighbourhood", "emotion": "sadness"}, {"uri": "spotify:track:2K7xn816oNHJZ0aVqdQsha", "name": "Softcore", "artist": "The neighbourhood", "emotion": "fear"}, {"uri": "spotify:track:7zwn1eykZtZ5LODrf7c0tS", "name": "You Get Me So High", "artist": "The neighbourhood", "emotion": "sadness"}, {"uri": "spotify:track:2xql0pid3EUwW38AsywxhV", "name": "Reflections", "artist": "The neighbourhood", "emotion": "sadness"}, {"uri": "spotify:track:2u0CelO5c81XS7z3dGpHbS", "name": "The Beach", "artist": "The neighbourhood", "emotion": "joy"}, {"uri": "spotify:track:7brQHA2CgQpcMBiOlfiXYb", "name": "Afraid", "artist": "The neighbourhood", "emotion": "fear"}, {"uri": "spotify:track:0VF7YLIxSQKyNiFL3X6MmN", "name": "Stargazing", "artist": "The neighbourhood", "emotion": "joy"}, {"uri": "spotify:track:5Q6fh8OEhBYepJaORz9lxe", "name": "Daddy Issues (Remix) feat. Syd", "artist": "The neighbourhood", "emotion": "sadness"}, {"uri": "spotify:track:7IL8PSVwLOJxqYne6azxQv", "name": "Pretty Boy", "artist": "The neighbourhood", "emotion": "joy"}]
+[
+  {
+    "uri": "spotify:track:2tEMbypmvYhf84mzVbhxwZ",
+    "name": "NANANA",
+    "artist": "GOT7",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:4ER58qECydWokIsgqtysWu",
+    "name": "\ub531 \uc88b\uc544(Just right)",
+    "artist": "GOT7",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6f4wghlwYWGLqGEIKc6HDQ",
+    "name": "You Calling My Name",
+    "artist": "GOT7",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1pmfd0ohjfh1qXPWvjaC1o",
+    "name": "NOT BY THE MOON",
+    "artist": "GOT7",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1xzCUpXSMnAbckUXDwBTlW",
+    "name": "\ud558\ub4dc\uce90\ub9ac Hard Carry",
+    "artist": "GOT7",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:72HYwYmfl6Y8AzbJO0z6vB",
+    "name": "\ub2c8\uac00 \ud558\uba74 If You Do",
+    "artist": "GOT7",
+    "emotion": "fear"
+  },
+  {
+    "uri": "spotify:track:2iXvnjL5CH66UpnGjXHDmZ",
+    "name": "Lullaby",
+    "artist": "GOT7",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:4tzkSoh450XnimhNWVmBhg",
+    "name": "Never Ever",
+    "artist": "GOT7",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5fHsQ2MSaBD1wId7lGGBaK",
+    "name": "TRUTH",
+    "artist": "GOT7",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:4fMQoUbHEDQuunJiYbLXpL",
+    "name": "Don't Leave Me Alone",
+    "artist": "GOT7",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0yB4jrSwN0bFtFRDR5vyMj",
+    "name": "Love Shot",
+    "artist": "exo",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7GbUWl6qLW1gdngbEV2WDJ",
+    "name": "Monster",
+    "artist": "exo",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:2ujA6F1cpk3m8lsPE5aKua",
+    "name": "The Eve",
+    "artist": "exo",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:6Rx0ORYPP3GH9rTvGS5Vy8",
+    "name": "CALL ME BABY",
+    "artist": "exo",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5EzitieoPnjyKHAq0gfRMa",
+    "name": "Ko Ko Bop",
+    "artist": "exo",
+    "emotion": "fear"
+  },
+  {
+    "uri": "spotify:track:4pi0Elz7B7cLfw37J3bYm9",
+    "name": "Growl",
+    "artist": "exo",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6ukWoX4AHV76JdYVdKRPk8",
+    "name": "Lotto",
+    "artist": "exo",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:7fK0csBoqbcgUuWGV0cpoD",
+    "name": "Obsession",
+    "artist": "exo",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:4EjUFjzi4ErWjklOA3Aslu",
+    "name": "Tempo",
+    "artist": "exo",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1Acgi7wxVD9OF3iQnFe8Q4",
+    "name": "Don't Go",
+    "artist": "exo",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0tYZo2UhV1lrUez5CA0Iyw",
+    "name": "Guerrilla",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3zmrdOtnOogqLllz26WLZ3",
+    "name": "Deja Vu",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6k67RdkVjTZj79c1cRz7IQ",
+    "name": "WONDERLAND",
+    "artist": "ateez",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2Ax4rdLenBhULX7nRbhful",
+    "name": "Cyberpunk",
+    "artist": "ateez",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0rNLaGUleZ91DXMxmZNq5v",
+    "name": "Fireworks (I'm The One)",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3IdPtyJHB1WVPM4eCiCAKM",
+    "name": "Answer",
+    "artist": "ateez",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:7zC6xvBPnIC92K06pMpstY",
+    "name": "INCEPTION",
+    "artist": "ateez",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2UP7KnRSvc4taXbjOoSX0f",
+    "name": "Say My Name",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:28xjm4FnnGI4Xnds7VoNSl",
+    "name": "Wave",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:1V1btvvh0M47BWClDsiCqZ",
+    "name": "Sector 1",
+    "artist": "ateez",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3dI59jLoFMjMAyUAyRZnkE",
+    "name": "BANG BANG BANG",
+    "artist": "bigbang",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3TSLqZssCoCdDlMhCJ08XW",
+    "name": "Still Life",
+    "artist": "bigbang",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3lYvepDz6yYj29z7e4r5z0",
+    "name": "FXXK IT",
+    "artist": "bigbang",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:1L4d2lafz1odpIMe8va21X",
+    "name": "Haru Haru",
+    "artist": "bigbang",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2vzn8usBcuNL93DnTjEK0z",
+    "name": "LOSER",
+    "artist": "bigbang",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:6UgkB0xM45TR3Zjqm3GQ6T",
+    "name": "LET'S NOT FALL IN LOVE",
+    "artist": "bigbang",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:4kaY4LbdbomICC25gYGGtn",
+    "name": "IF YOU",
+    "artist": "bigbang",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7ijWcf4FsoxoyPK4B9WGp6",
+    "name": "LAST DANCE",
+    "artist": "bigbang",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:26JeAi8xsSvLRoNsl9B8Js",
+    "name": "FANTASTIC BABY - Japanese ver.",
+    "artist": "bigbang",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:4LOLvDtzykDC7y9WehFoOi",
+    "name": "Blue",
+    "artist": "bigbang",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:2bPGTMB5sFfFYQ2YvSmup0",
+    "name": "Deutschland",
+    "artist": "rammstein",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:5KTBaWu8IOczQ0sPWzZ7MY",
+    "name": "Dicke Titten",
+    "artist": "rammstein",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3gVhsZtseYtY1fMuyYq06F",
+    "name": "Sonne",
+    "artist": "rammstein",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:5awDvzxWfd53SSrsRZ8pXO",
+    "name": "Du hast",
+    "artist": "rammstein",
+    "emotion": "love"
+  },
+  {
+    "uri": "spotify:track:514GW1c9Jn21KgZmO6mZIE",
+    "name": "Armee der Tristen",
+    "artist": "rammstein",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0UuNO0yYvsMPlyLF7RfQlg",
+    "name": "Angst",
+    "artist": "rammstein",
+    "emotion": "fear"
+  },
+  {
+    "uri": "spotify:track:7j43FohbLVulScL7S9sQZk",
+    "name": "Ausl\u00e4nder",
+    "artist": "rammstein",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2w7Ca8DNYXBCgA6Bht7o0N",
+    "name": "Zick Zack",
+    "artist": "rammstein",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2KsHzM4L7ThhNJB6MHXkPx",
+    "name": "Zeit",
+    "artist": "rammstein",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:5vZ4IeUenK2cHub2d7yfWk",
+    "name": "Radio",
+    "artist": "rammstein",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0qi4b1l0eT3jpzeNHeFXDT",
+    "name": "Just Can't Get Enough",
+    "artist": "depeche mode",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0yp3TvJNlG50Q4tAHWNCRm",
+    "name": "Enjoy the Silence",
+    "artist": "depeche mode",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:4UCTgh5jvtqoaMX6MAhUNn",
+    "name": "Personal Jesus - Single Version",
+    "artist": "depeche mode",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1cBxAm8a0fENn2ix3Dfm3u",
+    "name": "Precious",
+    "artist": "depeche mode",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0Mb20VmqR2lvtgbEermW2v",
+    "name": "Policy of Truth",
+    "artist": "depeche mode",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2wUlYDGGXlSvm2NkGj0Qio",
+    "name": "Personal Jesus",
+    "artist": "depeche mode",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0T57cTUpYpvSvZ3GowBuTP",
+    "name": "Never Let Me Down Again",
+    "artist": "depeche mode",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:6ZCyDN2ArlWB4GKAj644Cd",
+    "name": "Strangelove",
+    "artist": "depeche mode",
+    "emotion": "surprise"
+  },
+  {
+    "uri": "spotify:track:4WoKuMjwJXuy9IqX6AH5JE",
+    "name": "People Are People",
+    "artist": "depeche mode",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7HDWE2Ib7cjkhzULV4K8y3",
+    "name": "It's No Good",
+    "artist": "depeche mode",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0n3sHHfdOq6Awix3JPe3xl",
+    "name": "Bad Romance",
+    "artist": "halestorm",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:60rHc4AkLlP4XVSATvBb6K",
+    "name": "I Miss the Misery",
+    "artist": "halestorm",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0JKY13K1Io2aqXJb96UyzX",
+    "name": "I Get Off",
+    "artist": "halestorm",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:7dIObUjmQfXbs56UsaBIHT",
+    "name": "Wicked Ways",
+    "artist": "halestorm",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0hKLGoFtQiMHUzmquTyzpS",
+    "name": "Love Bites (So Do I)",
+    "artist": "halestorm",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:3wfLVyu732UjOAQbGlZSPw",
+    "name": "Here's to Us",
+    "artist": "halestorm",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:5MapUlM1un2Kh4aZ3IyWcL",
+    "name": "I Am the Fire",
+    "artist": "halestorm",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0dnx2LK0rnPTACGzbLc1Jx",
+    "name": "Mz. Hyde",
+    "artist": "halestorm",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6ubqrTIJwspBSqx8XQHN2K",
+    "name": "Mayhem",
+    "artist": "halestorm",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0AGJuICX9Uhne0ER96c4Rw",
+    "name": "Freak Like Me",
+    "artist": "halestorm",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7n5eQJYX7e6H5gkzgyEfQG",
+    "name": "Can You Hear My Heart (feat. LEE HI)",
+    "artist": "epik high",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:0OWBz5FCeATA2zhHgAk7Uh",
+    "name": "Rosario (Feat. CL, ZICO)",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2qrDQX9IvOhetvjUcwPtmb",
+    "name": "Rain Song (Feat. Colde)",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1VnjByC7TUx5A73A4qtgoo",
+    "name": "\uc6b0\uc0b0 (feat. \uc724\ud558)",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1hV2SwB1pcFXZgYG9Sq2J7",
+    "name": "LOVE STORY",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5ZO2kMfYHuKXoAShKuXjZn",
+    "name": "End of the World (Feat. GSoul)",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7zyEA6ntsqPH7sLc1YYK26",
+    "name": "HOME IS FAR AWAY",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1Q4GCEgmuwVcR3FB1TpJFR",
+    "name": "Born Hater",
+    "artist": "epik high",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:6A4iYPzPVM4OSjIMgxMYnY",
+    "name": "Gray So Gray (Feat. Younha)",
+    "artist": "epik high",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5b2suopDXFPLXl3NKOTJjY",
+    "name": "Lovedrunk (Feat. Crush)",
+    "artist": "epik high",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:2DgdHcjWmO3qd50RzuBLgZ",
+    "name": "House of Memories",
+    "artist": "Panic! At the disco",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2Rk4JlNc2TPmZe2af99d45",
+    "name": "ME! (feat. Brendon Urie of Panic! At The Disco)",
+    "artist": "Panic! At the disco",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1BECwm5qkaBwlbfo4kpYx8",
+    "name": "Death of a Bachelor",
+    "artist": "Panic! At the disco",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:3px2rAPu74ltbkf9eZsZ8h",
+    "name": "Emperor's New Clothes",
+    "artist": "Panic! At the disco",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2fh3bZ8jZhMxOcfESE9nQY",
+    "name": "Don't Threaten Me with a Good Time",
+    "artist": "Panic! At the disco",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:22oEJW6r2rMb9z4IntfyEa",
+    "name": "Hey Look Ma, I Made It",
+    "artist": "Panic! At the disco",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:6od5hFv9IT5JHc7NEF9HRv",
+    "name": "Victorious",
+    "artist": "Panic! At the disco",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:5rLi8B8qgk6qThwRnKHW2P",
+    "name": "The Ballad of Mona Lisa",
+    "artist": "Panic! At the disco",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5443vprqDLYYwDUyBLkU9H",
+    "name": "Fahr mit mir (4x4) (feat. Tokio Hotel)",
+    "artist": "Tokio Hotel",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2QuQkdLLzgktXwruPAz6f4",
+    "name": "White Lies",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:32Ky5QCRtwYJJXuLwoGufj",
+    "name": "Monsoon",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2u7zMp2o6phdzeuSVLxbcM",
+    "name": "Happy People (feat. Da\u00f0i Freyr)",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1pGQZYCKWFsadznuK8YkcZ",
+    "name": "Love Who Loves You Back",
+    "artist": "Tokio Hotel",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:1E7BFqr1XUEk9jB9PFFsQA",
+    "name": "Behind Blue Eyes",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:0C6sWuj7DEyxh6TPDuhogn",
+    "name": "When We Were Younger",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:4OFp0syo4JH3zonPTNpqJG",
+    "name": "Bad Love",
+    "artist": "Tokio Hotel",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2MvvoeRt8NcOXWESkxWn3g",
+    "name": "Ribs",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:2dLLR6qlu5UJ5gk0dKz0h3",
+    "name": "Royals",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:3G6hD9B2ZHOsgf4WfNu7X1",
+    "name": "Team",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6Kkt27YmFyIFrcX3QXFi2o",
+    "name": "Liability",
+    "artist": "Lorde",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:6ie2Bw3xLj2JcGowOlcMhb",
+    "name": "Green Light",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:6K8VQ84MqhsoakN5MjrnVR",
+    "name": "Supercut",
+    "artist": "Lorde",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:51QEyJI5M7uyd8DOh9tqQY",
+    "name": "Buzzcut Season",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:7ARveOiD31w2Nq0n5FsSf8",
+    "name": "Perfect Places",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:193Dm5SqYy3hTSbuzxbwKc",
+    "name": "Writer In The Dark",
+    "artist": "Lorde",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7rdUtXasA973gmrr2Xxh3E",
+    "name": "Homemade Dynamite (Feat. Khalid, Post Malone & SZA) - REMIX",
+    "artist": "Lorde",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:26EM9sZnQkLLQxixGd88KE",
+    "name": "I Am The Best",
+    "artist": "2NE1",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:63J1RStsmoVKXNTCHRNxii",
+    "name": "COME BACK HOME",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5BzfRtVjyC4wbISHdbCvWL",
+    "name": "Lonely",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:4q2HU9Ijpk4zJ24x7oMdXb",
+    "name": "FIRE",
+    "artist": "2NE1",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:4ebNVkfNL5kHuxr3o5K93R",
+    "name": "Go Away",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:5FahFQNnmxqiWzJbDNmeIY",
+    "name": "Ugly",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:1ErdaM9N7EJ7trhXFnDECg",
+    "name": "I Don't Care",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:29yVLesUDgcKvnTdipu3rw",
+    "name": "GOTTA BE YOU",
+    "artist": "2NE1",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6",
+    "name": "Sweater Weather",
+    "artist": "The neighbourhood",
+    "emotion": "anger"
+  },
+  {
+    "uri": "spotify:track:5E30LdtzQTGqRvNd7l6kG5",
+    "name": "Daddy Issues",
+    "artist": "The neighbourhood",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2K7xn816oNHJZ0aVqdQsha",
+    "name": "Softcore",
+    "artist": "The neighbourhood",
+    "emotion": "fear"
+  },
+  {
+    "uri": "spotify:track:7zwn1eykZtZ5LODrf7c0tS",
+    "name": "You Get Me So High",
+    "artist": "The neighbourhood",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2xql0pid3EUwW38AsywxhV",
+    "name": "Reflections",
+    "artist": "The neighbourhood",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:2u0CelO5c81XS7z3dGpHbS",
+    "name": "The Beach",
+    "artist": "The neighbourhood",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:7brQHA2CgQpcMBiOlfiXYb",
+    "name": "Afraid",
+    "artist": "The neighbourhood",
+    "emotion": "fear"
+  },
+  {
+    "uri": "spotify:track:0VF7YLIxSQKyNiFL3X6MmN",
+    "name": "Stargazing",
+    "artist": "The neighbourhood",
+    "emotion": "joy"
+  },
+  {
+    "uri": "spotify:track:5Q6fh8OEhBYepJaORz9lxe",
+    "name": "Daddy Issues (Remix) feat. Syd",
+    "artist": "The neighbourhood",
+    "emotion": "sadness"
+  },
+  {
+    "uri": "spotify:track:7IL8PSVwLOJxqYne6azxQv",
+    "name": "Pretty Boy",
+    "artist": "The neighbourhood",
+    "emotion": "joy"
+  }
+]

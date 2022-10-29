@@ -3,15 +3,19 @@ import os
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 class SpotifyManager():
-    def __init__(self, redirect_uri='http://localhost:8080'):
+    def __init__(self, redirect_uri: str='http://localhost:8080'):
         cid = os.getenv('CLIENT_ID')
         secret = os.getenv('CLIENT_SECRET')
         auth = SpotifyOAuth(cid, secret, scope=['playlist-modify-public'], redirect_uri=redirect_uri)
         self.sp = spotipy.Spotify(oauth_manager=auth)
         self.sp_user = self.sp.current_user()
 
-    def get_artist(self, artist_name):
-        return self.sp.search(f'artist: {artist_name}',type='artist', limit=1)
+    def get_track(self, track_name: str, artist: str):
+        track = self.sp.search(q=f'artist: {artist} track: {track_name}', type='track', limit=1)
+        return [x for x in track['tracks']['items'] if x['type'] == 'track']
+
+    def get_artist(self, artist_name: str):
+        return self.sp.search(f'artist: {artist_name}', type='artist', limit=1)
 
     def get_top_songs_for_artist(self, artist):
         artist_id = artist['artists']['items'][0]['uri'] if 'spotify:artist:' not in artist else artist
@@ -37,7 +41,7 @@ class SpotifyManager():
                 break
         return track_ids
 
-    def create_playlist(self, playlist_name, desc, track_ids):
+    def create_playlist(self, playlist_name: str, desc: str, track_ids: list):
         playlist = self.sp.user_playlist_create(user=self.sp_user['id'],
                                            name=playlist_name,
                                            description=desc)
