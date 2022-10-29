@@ -26,10 +26,10 @@ def internal_error(error):
     return {'message': 'internal_server_error'}, 500
 
 
-# @app.route('/get_spotify_list', methods=['GET'])
-# def get_spotify_list():
-#     params = request.args.to_dict()
-#     return create_playlist_by_track(artist=params['artist'], track_name=params['track_name']), 200
+@app.route('/get_spotify_list', methods=['GET'])
+def get_spotify_list():
+    params = request.args.to_dict()
+    return create_playlist_by_track(artist=params['artist'], track_name=params['track_name']), 200
 
 
 # main driver function
