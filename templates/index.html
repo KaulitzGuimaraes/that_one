@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div class="container">
+        <h2>Hi {{ user_name }}</h2>
+       <a href="/playlists">my playlists</a> |
+        <a href="/current_user">me</a>
+    </div>
+{% endblock %}
