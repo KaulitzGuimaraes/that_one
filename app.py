@@ -65,7 +65,8 @@ def index():
     return flask.render_template(
         'index.html',
         user_name=spotify.me()["display_name"],
-        title='Home'
+        title='Home',
+        profile_img_url=spotify.current_user()['images'][0]['url']
     )
 
 

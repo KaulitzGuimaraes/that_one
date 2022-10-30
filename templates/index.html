@@ -1,9 +1,71 @@
 {% extends 'layout.html' %}
 
-{% block content %}
-    <div class="container">
-        <h2>Hi {{ user_name }}</h2>
-       <a href="/playlists">my playlists</a> |
-        <a href="/current_user">me</a>
+{% block header_content %}
+
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <nav class="main-nav">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-2">
+                        <!-- ***** Logo Start ***** -->
+                        <img style="width: 50px; height: 50px"
+                             src="{{ url_for('static', filename='assets/images/logo.png') }}" alt="">
+
+                        <!-- ***** Logo End ***** -->
+
+                    </div>
+
+                    <div class="col-lg-auto heading-section">
+
+                        <h4>Sentiment Analysis Playlist Creator</h4>
+
+                    </div>
+                    <div class="col-lg-4">
+
+                        <ul class="nav">
+                            <li><a href="/">
+                                <img style="width: 30px; height: 30px" src="{{ profile_img_url }}" alt=""/>
+                                {{ user_name }}
+                            </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <!-- ***** Menu Start ***** -->
+
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+{% endblock %}
+
+{% block form_content %}
+    <div class="container justify-content-center">
+        <form>
+            <div class="form-row ">
+                <div class="col-lg-4">
+                    <input id="artist" type="text" class="form-control" placeholder="Please type the artist">
+                </div>
+                <div class="col-lg-4">
+                    <input id="trackName" type="text" class="form-control" placeholder="Please type the track name">
+                </div>
+                <div   id="createPlaylist" class="col-lg-4 main-button">
+                    <a href="#">Create playlist</a>
+                </div>
+
+            </div>
+
+
+        </form>
     </div>
+
 {% endblock %}
