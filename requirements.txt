@@ -3,6 +3,7 @@ sklearn
 nltk
 spotipy
 flask
+flask_session
 gunicorn
 lyricsgenius
 googletrans==3.1.0a0

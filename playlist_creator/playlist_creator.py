@@ -1,5 +1,4 @@
 import json
-import pickle
 
 from n_pl.emotions_identifier import EmotionsIdentifier
 from spotify_api.spotifymanager import SpotifyManager
@@ -8,7 +7,6 @@ from training.classifier import Classifier
 from genius.genius import GeniusLyricsFinder
 from translator.translator import LyricsTranslator
 
-sp = pickle.load(open('./sp.bin', mode='rb'))
 
 bow = BOW.get_bow()
 
@@ -17,7 +15,8 @@ class Count():
     count = 0
 
 
-def create_playlist_by_track(artist: str, track_name: str) -> dict:
+def create_playlist_by_track(artist: str, track_name: str, spotify) -> dict:
+    sp = SpotifyManager(spotify)
     track = sp.get_track(track_name=track_name, artist=artist)
     print(track[0].keys())
     print(track[0]['name'])

@@ -171,3 +171,5 @@ p.json
 
 venv
 source
+.flask_session/
+

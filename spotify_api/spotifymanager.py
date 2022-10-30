@@ -4,11 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from common.constants import REDIRECT_URL
 class SpotifyManager():
-    def __init__(self, redirect_uri: str=REDIRECT_URL):
-        cid = os.getenv('CLIENT_ID')
-        secret = os.getenv('CLIENT_SECRET')
-        auth = SpotifyOAuth(cid, secret, scope=['playlist-modify-public'], redirect_uri=redirect_uri)
-        self.sp = spotipy.Spotify(oauth_manager=auth)
+    def __init__(self, spotify):
+        self.sp = spotify
         self.sp_user = self.sp.current_user()
 
     def get_track(self, track_name: str, artist: str):
