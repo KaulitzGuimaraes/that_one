@@ -14,13 +14,12 @@ async () => {
         {
             method: 'GET',
         });
-    await fetchPromise.then(response => {
-        console.log(response);
-    })
+    document.getElementById("loading").style =""
     await fetchPromise.then((response => response.json())).then(
         (responseJSON) =>{
            document.getElementById("embededPlaylist").src =`https://open.spotify.com/embed/playlist/${responseJSON['id']}?utm_source=generator&theme=0`
           setTimeout( async ()=>{
+               document.getElementById("loading").style ="display: none;"
               document.getElementById("embededPlaylistDiv").style = ""
           }, 10000)
 

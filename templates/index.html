@@ -70,43 +70,49 @@
 
 {% endblock %}
 {% block playlist_embeded %}
-    <div  id="embededPlaylistDiv" class="container" style="display: none;">
-    <iframe style="border-radius:12px"
-            id="embededPlaylist"
-            src="https://open.spotify.com/embed/playlist/3pLcA3nciK62t0XZEveg5z?utm_source=generator&theme=0"
-            width="100%" height="380" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div id="loading" style="display: none;">
+<div id class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <div id="embededPlaylistDiv" class="container" style="display: none;">
+
+        <iframe style="border-radius:12px"
+                id="embededPlaylist"
+                src="https://open.spotify.com/embed/playlist/3pLcA3nciK62t0XZEveg5z?utm_source=generator&theme=0"
+                width="100%" height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
     </div>
 {% endblock %}
 {% block details %}
     <div class="game-details">
-            <div class="row">
-              <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-12">
                 <h3>How this works?</h3>
 
-              </div>
-                 <div class="col-lg-12">
-                     <p>
-                         This is an application to create custom playlist based on any track from spotify by
-                         using an AI tool that  analyzes the chosen track lyrics and relate it to an emotion. Based on it,
-                         the tool will create a playlist with tracks ( <a href="#">that one of my best friends EVER, that deserves all
-                         and much more that she can get, I love you, Happy birthday!!!! </a>) with same emotion related.
-                         Just fill the form below and enjoy your playlist ;)
-
-                     </p>
-                    </div>
             </div>
+            <div class="col-lg-12">
+                <p>
+                    This is an application to create custom playlist based on any track from spotify by
+                    using an AI tool that analyzes the chosen track lyrics and relate it to an emotion. Based on it,
+                    the tool will create a playlist with tracks ( <a href="#">that one of my best friends EVER, that
+                    deserves all
+                    and much more that she can get, I love you, Happy birthday!!!! </a>) with same emotion related.
+                    Just fill the form below and enjoy your playlist ;)
+
+                </p>
+            </div>
+        </div>
     </div>
 {% endblock %}
 {% block js %}
 
     <script type="text/javascript" src="{{ url_for('static', filename='assets/js/create-playlist.js') }}"></script>
-{#    <script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>#}
-{#    <script type="text/javascript"#}
-{#            src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/isotope.min.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/owl-carousel.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/tabs.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/popup.js') }}"></script>#}
-{#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>}#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>#}
+    {#    <script type="text/javascript"#}
+    {#            src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/isotope.min.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/owl-carousel.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/tabs.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/popup.js') }}"></script>#}
+    {#    <script type="text/javascript" src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>}#}
 {% endblock %}
