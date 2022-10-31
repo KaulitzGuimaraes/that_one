@@ -22,23 +22,41 @@ Run app.py
     NOTE: If receiving "port already in use" error, try other ports: 5000, 8090, 8888, etc...
         (will need to be updated in your Spotify app and SPOTIPY_REDIRECT_URI variable)
 """
-
+import json
 import os
 
 import flask
 from flask import Flask, session, request, redirect
 from flask_session import Session
+from flask_cors import CORS
 import spotipy
+from werkzeug.datastructures import Headers
 
 from playlist_creator.playlist_creator import create_playlist_by_track
 
 app = Flask(__name__,
             static_folder='web/static'
             )
+
+
 app.config['SECRET_KEY'] = os.urandom(64)
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SESSION_FILE_DIR'] = './.flask_session/'
+
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 Session(app)
+
+
+def assembly_response(data, status=200):
+    d = Headers()
+    d.add('Content-Type', 'application/json')
+    d.add('Access-Control-Allow-Origin', '*')
+    data_to_show = json.dumps(data, indent=4)
+    print(data_to_show)
+    response = app.response_class(
+        response=data_to_show, status=status, mimetype='application/json', headers=d)
+    return response
 
 
 @app.route('/')
@@ -46,7 +64,7 @@ def index():
     cache_handler = spotipy.cache_handler.FlaskSessionCacheHandler(session)
     auth_manager = spotipy.oauth2.SpotifyOAuth(scope=['user-read-currently-playing playlist-modify-private',
                                                       'playlist-modify-public'
-                                               ],
+                                                      ],
                                                cache_handler=cache_handler,
                                                show_dialog=True)
 
@@ -85,7 +103,7 @@ def playlists():
         return redirect('/')
 
     spotify = spotipy.Spotify(auth_manager=auth_manager)
-    return create_playlist_by_track(artist=params['artist'], track_name=params['track_name'], spotify=spotify), 200
+    return create_playlist_by_track(artist=params['artist'], track_name=params['track_name'], spotify=spotify)
 
 
 @app.route('/currently_playing')
@@ -117,5 +135,6 @@ Following lines allow application to be run more conveniently with
 (Also includes directive to leverage pythons threading capacity.)
 '''
 if __name__ == '__main__':
-    app.run(threaded=True, port=int(os.environ.get("PORT",
-                                                   os.environ.get("SPOTIPY_REDIRECT_URI", 8080).split(":")[-1])))
+    app.run(threaded=True, host='0.0.0.0', port=int(os.environ.get("PORT",
+                                                                   os.environ.get("SPOTIPY_REDIRECT_URI", 8080).split(
+                                                                       ":")[-1])))

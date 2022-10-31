@@ -7,9 +7,12 @@ from common.constants import TARGET_COL
 
 class EmotionsIdentifier:
     emotions_map = None
+
     @classmethod
     def get_map(cls):
-        if not cls.emotions_map:
+        print(type(cls.emotions_map))
+
+        if isinstance(cls.emotions_map, type(None)):
             file = pickle.load(open('./merged_training.pkl', 'rb'))
             y, label = pd.factorize(file[TARGET_COL])
             cls.emotions_map = label

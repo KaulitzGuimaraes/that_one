@@ -4,6 +4,7 @@ nltk
 spotipy
 flask
 flask_session
+flask_cors
 gunicorn
 lyricsgenius
 googletrans==3.1.0a0
