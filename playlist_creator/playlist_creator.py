@@ -1,4 +1,5 @@
 import json
+import random
 
 from n_pl.emotions_identifier import EmotionsIdentifier
 from spotify_api.spotifymanager import SpotifyManager
@@ -36,13 +37,16 @@ def create_playlist_by_track(artist: str, track_name: str, spotify) -> dict:
         )
     )
     emotion = EmotionsIdentifier.get_map()[prediction][0]
-    playlist_tracks = [track[0]['uri']]
+    playlist_tracks = []
     for item in json.loads(open('./predictions.json').read()):
         if item['emotion'] == emotion:
             playlist_tracks.append(item['uri'])
+    playlist_tracks = random.sample(playlist_tracks, 10 if len(playlist_tracks) >= 10 else len(playlist_tracks))
+    playlist_tracks = [track[0]['uri']] + playlist_tracks
 
     playlist = sp.create_playlist(f'{emotion.title()} #{Count.count}',
                                   'Created by an artificial intelligence.',
                                   playlist_tracks)
+    playlist['emotion'] = emotion
     Count.count += 1
     return playlist

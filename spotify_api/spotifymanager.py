@@ -16,8 +16,25 @@ class SpotifyManager():
         return self.sp.search(f'artist: {artist_name}', type='artist', limit=1)
 
     def get_top_songs_for_artist(self, artist):
-        artist_id = artist['artists']['items'][0]['uri'] if 'spotify:artist:' not in artist else artist
-        return self.sp.artist_top_tracks(artist_id=artist_id, country='BR')
+        # artist_id = artist['artists']['items'][0]['uri'] if 'spotify:artist:' not in artist else artist
+        if 'http' not in artist:
+            playlist = self.sp.search(q=f'playlist: This is {artist} user: Spotify',type='playlist',limit=1)
+            print(playlist)
+            playlist_link = playlist['playlists']['items'][0]['external_urls']['spotify']
+        else:
+            playlist_link = artist
+        tracks = []
+        playlist_uri = playlist_link.split("/")[-1].split("?")[0]
+        for track in self.sp.playlist_tracks(playlist_uri)["items"]:
+
+                tracks.append( {
+                        'uri': track["track"]['uri'],
+                        'name': track["track"]['name']
+                    })
+
+
+
+        return tracks
 
     def get_track_name_for_track_list(self, tracks):
         track_list = []
